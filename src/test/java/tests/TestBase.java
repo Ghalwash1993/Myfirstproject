@@ -100,7 +100,7 @@ public class TestBase extends AbstractTestNGCucumberTests
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		driver.navigate().to("http://qatechhub.com");
+		driver.navigate().to("http://www.facebook.com");
 	} 
 
 	@AfterSuite
